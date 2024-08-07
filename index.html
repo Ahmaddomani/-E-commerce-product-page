@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="E-commerce product page using javascript "
+    />
+    <!-- displays site properly based on user's device -->
+    <!-- css files  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normaliz.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-Aswome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <title>Frontend Mentor | E-commerce product page</title>
+  </head>
+  <body>
+    <!-- start main page  -->
+    <div class="main-page">
+      <div class="container">
+        <!-- start nav bar -->
+        <div class="nav">
+          <!-- start logo and links div -->
+          <div class="l-a-links">
+            <!-- menu -->
+            <img src="/images/icon-menu.svg" alt="" class="menu" />
+            <img src="/images/logo.svg" alt="" class="logo" />
+            <!-- start links  -->
+            <ul class="links">
+              <li>Collections</li>
+              <li>Men</li>
+              <li>Women</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
+            <!-- end links  -->
+          </div>
+          <!-- end logo and links div -->
+          <!-- start img and cart -->
+          <div class="cart-a-avatar">
+            <img src="images/icon-cart.svg" alt="" class="cart" />
+            <img src="images/image-avatar.png" alt="" class="avatar" />
+            <!-- span  -->
+            <span class="notification">0</span>
+            <!-- span  -->
+          </div>
+          <!-- end img and cart -->
+          <!-- start cart orders  -->
+          <div class="orders">
+            <div class="head">
+              <h3>Cart</h3>
+            </div>
+            <div class="orderContent">
+              <p class="para">Your cart is emty</p>
+            </div>
+          </div>
+          <!-- end cart orders  -->
+        </div>
+        <!-- end nav bar -->
+      </div>
+      <!-- start list-menut -->
+      <div class="list-menu">
+        <i class="fa-solid fa-x close"></i>
+        <ul class="list-menu-links close">
+          <li>Collections</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <!-- end list-menut -->
+      <!-- start landing -->
+      <div class="landing">
+        <div class="container">
+          <!-- start content  -->
+          <div class="content">
+            <!-- start imges-conntent  -->
+            <div class="imges-content">
+              <div class="main-img">
+                <img src="images/icon-previous.svg" class="previous" alt="" />
+                <img
+                  src="images/image-product-1.jpg"
+                  alt=""
+                  class="title-img"
+                />
+                <img src="images/icon-next.svg" class="next" alt="" />
+              </div>
+              <div class="thumbnail-imges">
+                <ul>
+                  <li>
+                    <img src="images/image-product-1-thumbnail.jpg" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/image-product-2-thumbnail.jpg" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/image-product-3-thumbnail.jpg" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/image-product-4-thumbnail.jpg" alt="" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- end imges-conntent  -->
+            <!-- start info div  -->
+            <div class="info">
+              <!-- start texts -->
+              <div class="texts">
+                <h5>Sneaker Company</h5>
+                <p class="title">Fall Limited Edition Sneakers</p>
+                <p class="text">
+                  These low-profile sneakers are your perfect casual wear
+                  companion. Featuring a durable rubber outer sole, they’ll
+                  withstand everything the weather can offer.
+                </p>
+              </div>
+              <!-- end texts -->
+              <!-- start price -->
+              <div class="price">
+                <h2>$125.00 <span class="discount">50%</span></h2>
+                <span class="old-price">$250.00</span>
+              </div>
+              <!-- end price -->
+              <!-- start buttons and counter div -->
+              <div class="counter-a-add">
+                <!-- start count div -->
+                <div class="count">
+                  <span class="minus"
+                    ><img src="images/icon-minus.svg" alt=""
+                  /></span>
+                  <span class="counter">0</span>
+                  <span class="plus"
+                    ><img src="images/icon-plus.svg" alt=""
+                  /></span>
+                </div>
+                <!-- end count div -->
+                <!-- start add button -->
+                <div class="button">
+                  <i
+                    class="fa-solid fa-cart-plus"
+                    style="color: #000000; margin-right: 10px"
+                  ></i>
+                  <span class="add">Add to cart</span>
+                </div>
+                <!-- end add button -->
+              </div>
+              <!-- end buttons and counter div -->
+            </div>
+            <!-- end info div  -->
+          </div>
+          <!-- end content  -->
+        </div>
+      </div>
+      <!-- end landing -->
+      <!-- start overlay -->
+      <div class="overlay" id="overlay"></div>
+      <!-- end overlay -->
+    </div>
+    <!-- end main page  -->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <!-- script file -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
